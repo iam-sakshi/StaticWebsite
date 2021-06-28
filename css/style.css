@@ -142,7 +142,7 @@ About
 
 
 /* contact */
-.card{
+.contactform .card{
     text-align: center;
     width: 20rem;
     margin: 0 15px;
@@ -155,19 +155,19 @@ About
 .contactform .fas,.contactform .far{
     color: #0d6efd;
 }
-h2{
+.contactform h2{
     text-align: center;
 }
-.contact{
+.contactform .contact{
     width: 30rem;
     margin: 0 15px;
 }
-.form .btn{
+.contactform .form .btn{
     
     display: block;
     margin: auto;
 }
-span{
+.contactform span{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -177,17 +177,17 @@ span{
     .contactform{
         flex-direction: column;
     }
-    .card{
+    .contactform .card{
         width: 18rem;
         margin: auto;
     }
-    .contact{
+    .contactform .contact{
         margin: auto;
         width: 90%;
     }
 }
 @media only screen and (max-width:350px){
-    .card{
+    .contactform .card{
         width: 15rem;
         margin: auto;
     }
