@@ -5,6 +5,9 @@
     text-align: center;
     position: relative;
 }
+.testimonial .container{
+    margin: 15px 0;
+}
 .testimonial-bg:before{
     content: "\f10d";
     font-family: "fontawesome";
