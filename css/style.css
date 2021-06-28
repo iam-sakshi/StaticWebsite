@@ -154,6 +154,7 @@ About
 }
 .contactform .fas,.contactform .far{
     color: #0d6efd;
+    margin: auto;
 }
 .contactform h2{
     text-align: center;
