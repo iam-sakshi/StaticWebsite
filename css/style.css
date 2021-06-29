@@ -3,7 +3,11 @@
     margin: 0;
     padding: 0;
 }
+.review{
+    border: 2px solid red;
+}
 .demo{
+    border: 3px solid black;
      background: #f8f7f6;
 }
 #testimonial-slider{
@@ -13,6 +17,7 @@
     box-shadow: 0 0 115px 19px rgba(236, 236, 236, 1);
 }
 .testimonial .description{
+    border: 2px solid green;
     font-size: 14px;
     color: #777;
     line-height: 26px;
@@ -109,5 +114,6 @@
 @media only screen and (max-width: 479px){
     .owl-buttons{ bottom: 30%; }
 }
+
 
 
