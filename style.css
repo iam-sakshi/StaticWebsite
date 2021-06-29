@@ -108,16 +108,16 @@
     height: 50px;
     border-radius: 50%;
     border: 4px solid #ccc;
-    background: url("../img/pexels-christina-morillo-1181424.jpg") no-repeat;
+    background: url("./img/pexels-christina-morillo-1181424.jpg") no-repeat;
     background-size: cover;
     transition: all 0.3s ease-in-out 0s;
 }
 .owl-theme .owl-controls .owl-page:nth-child(2) span{
-    background: url("../img/pexels-italo-melo-2379004.jpg") no-repeat;
+    background: url("./img/pexels-italo-melo-2379004.jpg") no-repeat;
     background-size: cover;
 }
 .owl-theme .owl-controls .owl-page:nth-child(3) span{
-    background: url("../img/pexels-pixabay-38554.jpg") no-repeat;
+    background: url("./img/pexels-pixabay-38554.jpg") no-repeat;
     background-size: cover;
 }
 .owl-theme .owl-controls.clickable .owl-page:hover span{
