@@ -373,11 +373,11 @@ background-color: #00c4ad;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-.home .container{
+.container{
 	max-width: 1170px;
 	margin:auto;
 }
-.home .row{
+.row{
 	display: flex;
 	flex-wrap: wrap;
 }
