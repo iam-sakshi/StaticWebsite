@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap");
+
+.col-6,
+.col-12,
+.col-auto,
+.col-md-6,
+.col-md-auto,
+.col-lg-3,
+.col-lg-9,
+.col-lg {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.breadcrumb {
+  margin: 6.2rem 0rem 0rem 0rem;
+  background-color: rgba(202, 231, 248, 0.637);
+}
+
+.breadcrumb-item {
+  padding: 1.2rem 0rem 1.2rem 2rem;
+}
+
+.section-subheading {
+  margin-top: 2.5em;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#page-title {
+  text-align: center;
+  margin: 1rem 0rem 2rem 0rem;
+}
+
+.news-wide-item-img {
+  display: flex;
+  height: 12.5rem;
+  min-width: 15.625rem;
+  width: 15.625rem;
+}
+
+.img-style {
+  border: 1px solid var(--border-color);
+  background-color: var(--primary-bg-color);
+  border-radius: var(--el-border-radius);
+  overflow: hidden;
+}
+
+.img-cover {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.news-wide-item {
+  position: relative;
+  display: flex;
+}
+
+.item {
+  margin-bottom: 45px;
+}
+
+.news-wide-item-heading {
+  margin-bottom: 1rem;
+  font-size: 2.125rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.item-heading {
+  font-family: var(--heading-font-family);
+  font-size: 2.125rem;
+  font-weight: var(--heading-font-weight);
+  font-family: 'Rokkitt', serif;
+}
+
+.item-heading a{
+  text-decoration: none;
+  color: black;
+}
+
+.item-heading a:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+.news-wide-item-info {
+  padding-left: 1.5625rem;
+  width: 100%;
+}
+
+.news-wide-item-desc {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  color: var(--text-secondary);
+}
+
+.news-wide-item-row {
+  display: flex;
+  font-size: 1rem;
+  margin-top: -1rem;
+  color: rgb(53, 53, 53);
+}
+
+
+.news-wide-item-row a {
+  color: #262629;
+  text-decoration: none;
+}
+
+
+.news-post-meta-item {
+  display: flex;
+  align-items: center;
+}
+
+.page-item {
+  padding: 0 2% 0 2%;
+}
+
+.content-item {
+  margin-bottom: 3.5rem;
+}
+
+@media (min-width: 992px) {
+  .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.wrapp-btn-link {
+  margin: -1rem 0rem 0rem 0rem;
+}
+
+.sidebar-item-heading {
+  line-height: 1.2;
+  font-size: 1.5rem;
+  font-family: var(--heading-font-family);
+  margin: 0rem 0rem 1.5rem 1rem;
+  font-family: 'Kadwa', serif;
+}
+
+.sidebar-item.widget_nav_menu,
+.sidebar-item.widget_recent_entries {
+  position: relative;
+  padding: 1.5rem 1rem;
+  background-color: rgba(202, 199, 199, 0.726);
+  border-radius: 8%;
+}
+
+.sidebar-item.widget_nav_menu ul,
+.sidebar-item.widget_recent_entries ul {
+  list-style: none;
+  margin: 1rem;
+  padding: 0;
+}
+
+.sidebar-item.widget_nav_menu ul li,
+.sidebar-item.widget_recent_entries ul li {
+  padding: 3% 3% 0% 0%;
+}
+
+.tagcloud {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0.625rem;
+}
+
+.tagcloud a {
+  font-size: 1rem !important;
+  margin-left: 1rem;
+  margin-bottom: 0.625rem;
+}
+
+.footer {
+  background: #303036;
+  background-color: #303036;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  color: white;
+}
+
+.footer-main {
+  padding: 4rem 0;
+}
+
+.footer-widget {
+  margin-bottom: 45px;
+}
+@media (min-width: 992px) {
+  .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+@media (min-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+.footer-company-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.footer-social-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: all .2s;
+}
+
+.footer p, .footer i {
+  opacity: .8;
+}
+.footer-item-heading {
+  font-size: 1.125rem;
+  margin-bottom: 1.25rem;
+  opacity: .9;
+  font-weight: 700;
+}
